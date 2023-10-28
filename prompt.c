@@ -9,6 +9,7 @@ int main(int argc, char** argv) {
 	puts("Press Ctrl+c to Exit\n");
 
 	while(1) {
+		printf("looping");
 		fputs("lispy> ", stdout);
 		
 		fgets(input, 2048, stdin);
