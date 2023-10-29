@@ -2,12 +2,19 @@
 
 Following https://www.buildyourownlisp.com/
 
-## Compiling
+## Compile
 
-Example:
+`cc -std=c99 -Wall hello_world.ic -ledit -o hello_world`
 
-`cc -std=c99 -Wall hello_world.c -o hello_world`
-
-Use the compile.sh like so:
+### Windows
 
 `./compile.sh <filename>`
+
+### Linux
+
+`bash compile.sh <filename>`
+
+## Resources
+
+* https://www.buildyourownlisp.com/
+* https://linuxconfig.org/bash-scripting-cheat-sheet

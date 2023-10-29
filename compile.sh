@@ -1,5 +1,7 @@
 #!/bin/bash
 
+filename = $1
+
 echo "Compiling..."
 
-cc -std=c99 -Wall $1.c -o $1
+echo "cc -std=c99 -Wall ${filename}.c -o ${filename}"
